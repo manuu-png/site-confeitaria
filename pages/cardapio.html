@@ -35,7 +35,7 @@
                         <a href="pages/sobre.html">sobre</a>
                     </li>
                     <li>
-                        <a href="pages/cardapio.html">cardápio</a>
+                        <a href="cardapio.html">cardápio</a>
                     </li>
                     <li>
                         <a href="pages/contato.html">contato</a>
@@ -43,6 +43,7 @@
                 </ul>
             </nav>
         </div>
+        <div class="div-logo"></div>
     </header>
 
     <section class="sobre">
@@ -61,7 +62,11 @@
                 </div>
 
                 <div class="reservar">
-                    <a href="">comprar</a>
+
+                    <button class ="button-reserva" onclick="abrir()">
+                        comprar
+                    </button>
+
                 </div>
             </div>
 
@@ -78,7 +83,11 @@
                 </div>
 
                 <div class="reservar">
-                    <a href="">comprar</a>
+
+                    <button class ="button-reserva" onclick="abrir()">
+                        comprar
+                    </button>
+
                 </div>
             </div>
 
@@ -95,7 +104,11 @@
                 </div>
 
                 <div class="reservar">
-                    <a href="">comprar</a>
+
+                    <button class ="button-reserva" onclick="abrir()">
+                        comprar
+                    </button>
+
                 </div>
             </div>
 
@@ -115,7 +128,7 @@
 
                 <div class="reservar">
 
-                    <button onclick="abrir()">
+                    <button class="button-reserva" onclick="abrir()">
                         comprar
                     </button>
 
@@ -138,9 +151,11 @@
 
                 </div>
 
-                <div class="reservar">
+               <div class="reservar">
 
-                    <a href="">comprar</a>
+                    <button class ="button-reserva" onclick="abrir()">
+                        comprar
+                    </button>
 
                 </div>
 
@@ -163,7 +178,9 @@
 
                 <div class="reservar">
 
-                    <a href="">comprar</a>
+                    <button class ="button-reserva" onclick="abrir()">
+                        comprar
+                    </button>
 
                 </div>
 
@@ -174,12 +191,12 @@
     <div id="fade" class="hide"></div>
 
     <div id="modal" class="hide">
-        <div>
+        <div class="centralizado">
             <h2>realizar reserva</h2>
-            <img src="" alt="">
+            <img src="../img/qrcode.png" alt="qrcode para pagamento via pix">
         </div>
 
-        <div>
+        <div class="fechar">
             <a href="">fechar</a>
         </div>
 
