@@ -1,0 +1,96 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #fff5f7;
+    color: #5c3540;
+    margin: 0;
+    padding: 0;
+}
+
+body > h1 {
+    text-align: center;
+    color: #d86b7f;
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDF6F7;
+    padding: 15px 30px;
+}
+
+
+.div-logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo {
+    width: 250px;
+    height: auto;
+}
+
+
+.div-menu {
+    width: 60%;
+    text-align: center;
+}
+
+.div-menu h1 {
+    color: #c65370;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #814452;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    color: #d86b7f;
+    text-decoration: underline;
+}
+
+
+.div-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto 35px auto;
+    padding: 25px 35px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(180, 90, 120, 0.12);
+    border: 1px solid #f8d5df;
+    transition: 0.3s;
+}
+
+.div-card p {
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
